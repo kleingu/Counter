@@ -29,7 +29,7 @@ class Counters extends Component {
 
   handelReset = () => {
     const counters = this.state.counters.map(c => {
-      c.value = 1;
+      c.value = 2;
       return c;
     });
     this.setState({ counters });
